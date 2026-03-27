@@ -1,0 +1,107 @@
+[
+    {
+        "nama": "Bigo Star Official",
+        "id": "bigostar_01",
+        "link": "https://www.bigo.tv/id/bigostar_01",
+        "platform": "Bigo",
+        "avatar": ""
+    },
+    {
+        "nama": "Gaming Pro Bigo",
+        "id": "gaming_pro99",
+        "link": "https://www.bigo.tv/id/gaming_pro99",
+        "platform": "Bigo",
+        "avatar": ""
+    },
+    {
+        "nama": "Music Night Live",
+        "id": "music_night",
+        "link": "https://www.bigo.tv/id/music_night",
+        "platform": "Bigo",
+        "avatar": ""
+    },
+    {
+        "nama": "Dance Queen",
+        "id": "dancequeen_88",
+        "link": "https://www.bigo.tv/id/dancequeen_88",
+        "platform": "Bigo",
+        "avatar": ""
+    },
+    {
+        "nama": "Talkshow Central",
+        "id": "talkshow_central",
+        "link": "https://www.bigo.tv/id/talkshow_central",
+        "platform": "Bigo",
+        "avatar": ""
+    },
+    {
+        "nama": "TikTok Daily Trends",
+        "id": "dailytrends_tk",
+        "link": "https://www.tiktok.com/@dailytrends_tk/live",
+        "platform": "Tiktok",
+        "avatar": ""
+    },
+    {
+        "nama": "Viral Chef",
+        "id": "viral_chef",
+        "link": "https://www.tiktok.com/@viral_chef/live",
+        "platform": "Tiktok",
+        "avatar": ""
+    },
+    {
+        "nama": "Tech Guru Live",
+        "id": "techguru_tk",
+        "link": "https://www.tiktok.com/@techguru_tk/live",
+        "platform": "Tiktok",
+        "avatar": ""
+    },
+    {
+        "nama": "Fitness Coach",
+        "id": "fitcoach_live",
+        "link": "https://www.tiktok.com/@fitcoach_live/live",
+        "platform": "Tiktok",
+        "avatar": ""
+    },
+    {
+        "nama": "Comedy Hub",
+        "id": "comedyhub_tk",
+        "link": "https://www.tiktok.com/@comedyhub_tk/live",
+        "platform": "Tiktok",
+        "avatar": ""
+    },
+    {
+        "nama": "Lofi Girl 24/7",
+        "id": "LofiGirl",
+        "link": "https://www.youtube.com/@LofiGirl/live",
+        "platform": "YouTube",
+        "avatar": ""
+    },
+    {
+        "nama": "World News Live",
+        "id": "WorldNews",
+        "link": "https://www.youtube.com/@WorldNews/live",
+        "platform": "YouTube",
+        "avatar": ""
+    },
+    {
+        "nama": "E-Sports Tournament",
+        "id": "EsportsLive",
+        "link": "https://www.youtube.com/@EsportsLive/live",
+        "platform": "YouTube",
+        "avatar": ""
+    },
+    {
+        "nama": "Nature Cam",
+        "id": "NatureCam",
+        "link": "https://www.youtube.com/@NatureCam/live",
+        "platform": "YouTube",
+        "avatar": ""
+    },
+    {
+        "nama": "Tech Podcast",
+        "id": "TechPodcast",
+        "link": "https://www.youtube.com/@TechPodcast/live",
+        "platform": "YouTube",
+        "avatar": ""
+    }
+]
