@@ -41,29 +41,25 @@ To eliminate the friction of manually entering host details, this application in
 ### Setup Instructions
 1. Clone this repository to your local machine:
    ```bash
-   git clone [https://github.com/HandiSetiawanHamdani/Stream-Catcher-Pro.git](https://github.com/HandiSetiawanHamdani/Stream-Catcher-Pro.git)
+   git clone https://github.com/HandiSetiawanHamdani/Stream-Catcher-Pro.git
+Navigate to the project directory and create a virtual environment:
 
-
-2. Navigate to the project directory and create a virtual environment:
-
+Bash
 
 cd Stream-Catcher-Pro
 python -m venv venv
-
-
-3.Activate the virtual environment:
+Activate the virtual environment:
 
 Windows: .\venv\Scripts\activate
+
 macOS/Linux: source venv/bin/activate
 
-
-4.Install the required dependencies:
+Install the required dependencies:
 
 Bash
+
 pip install -r requirements.txt
-
-
-5.Rename the provided hosts_data_template.json to hosts_data.json to initialize your local database.
+Rename the provided hosts_data_template.json to hosts_data.json to initialize your local database.
 
 💻 Usage
 To launch the dashboard, execute the following command within your activated virtual environment:
@@ -78,14 +74,3 @@ Contributions, issues, and feature requests are highly welcome! Feel free to che
 
 📄 License
 This project is open-source and available under the MIT License.
-
-
-
-
-
-
-
-
-
-
-
