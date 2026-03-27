@@ -1,0 +1,6 @@
+venv/
+__pycache__/
+*.ts
+*.mp4
+Hasil_Rekaman/
+hosts_data.json
