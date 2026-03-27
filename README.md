@@ -23,7 +23,7 @@ To eliminate the friction of manually entering host details, this application in
 1. Open your Brave Browser and create a specific bookmark folder named exactly `bg`.
 2. Bookmark your target host profiles (e.g., Bigo Live or TikTok pages) into this `bg` folder.
 3. Upon launching the dashboard, the background script will automatically detect, extract, and append these new bookmarks into your `hosts_data.json` database.
-4. *Note: If you prefer not to use this feature, simply ignore it. You can fully manage your database manually via the built-in "Database" menu in the dashboard.*
+*Note: If you prefer not to use this feature, simply ignore it. You can fully manage your database manually via the built-in "Database" menu in the dashboard.*
 
 ## 🛠️ Technology Stack
 * **Python 3** (Core Logic)
@@ -39,38 +39,36 @@ To eliminate the friction of manually entering host details, this application in
 2. Install **FFmpeg** and ensure it is added to your system's PATH variable.
 
 ### Setup Instructions
-1. Clone this repository to your local machine:
-   ```bash
-   git clone https://github.com/HandiSetiawanHamdani/Stream-Catcher-Pro.git
-Navigate to the project directory and create a virtual environment:
 
-Bash
+**1. Clone this repository to your local machine:**
+    
+    git clone [https://github.com/HandiSetiawanHamdani/Stream-Catcher-Pro.git](https://github.com/HandiSetiawanHamdani/Stream-Catcher-Pro.git)
 
-cd Stream-Catcher-Pro
-python -m venv venv
-Activate the virtual environment:
+**2. Navigate to the project directory and create a virtual environment:**
+    
+    cd Stream-Catcher-Pro
+    python -m venv venv
 
-Windows: .\venv\Scripts\activate
+**3. Activate the virtual environment:**
+* **Windows:** `.\venv\Scripts\activate`
+* **macOS/Linux:** `source venv/bin/activate`
 
-macOS/Linux: source venv/bin/activate
+**4. Install the required dependencies:**
+    
+    pip install -r requirements.txt
 
-Install the required dependencies:
+**5. Initialize Database:**
+Rename the provided `hosts_data_template.json` to `hosts_data.json` to initialize your local database.
 
-Bash
-
-pip install -r requirements.txt
-Rename the provided hosts_data_template.json to hosts_data.json to initialize your local database.
-
-💻 Usage
+## 💻 Usage
 To launch the dashboard, execute the following command within your activated virtual environment:
+    
+    streamlit run app.py
 
-Bash
+*Tip: To further minimize resource consumption on low-spec machines, you can run the app with usage stats disabled:* `streamlit run app.py --browser.gatherUsageStats false`.
 
-streamlit run app.py
-Tip: To further minimize resource consumption on low-spec machines, you can run the app with usage stats disabled: streamlit run app.py --browser.gatherUsageStats false.
-
-🤝 Contribution
+## 🤝 Contribution
 Contributions, issues, and feature requests are highly welcome! Feel free to check the issues page.
 
-📄 License
+## 📄 License
 This project is open-source and available under the MIT License.
